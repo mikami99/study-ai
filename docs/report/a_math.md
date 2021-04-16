@@ -28,7 +28,7 @@ $$
 
 $$
 M^TM\boldsymbol{v}=\sigma M^T\boldsymbol{u}=\sigma^2\boldsymbol{u}\\
-MM^T\boldsymbol{u}=\sigma M^T\boldsymbol{v}=\sigma^2\boldsymbol{v}
+MM^T\boldsymbol{u}=\sigma M\boldsymbol{v}=\sigma^2\boldsymbol{v}
 $$
 
 
