@@ -35,13 +35,13 @@ $$
 
 最小にするとは、勾配が0であること。
 
-\begin{align}
+\begin{align*}
 & \frac{\partial}{\partial \boldsymbol{w}} J(\boldsymbol{w}) = 0 \cr 
-& \Leftrightarrow & \frac{\partial}{\partial \boldsymbol{w}} \frac{1}{n}\sum_{i} (\hat{y}_{i}-y_{i})^2 = 0 \cr 
-& \Leftrightarrow & \frac{\partial}{\partial \boldsymbol{w}} \frac{1}{n}\sum_{i} (\boldsymbol{x}_i^T \cdot\boldsymbol{w}-y_{i})^2 = 0 \cr
-& \Leftrightarrow & \frac{\partial}{\partial \boldsymbol{w}} \frac{1}{n}(X\boldsymbol{w}-\boldsymbol{y})^T(X\boldsymbol{w}-\boldsymbol{y}) = 0 \cr 
-& \Rightarrow & \frac{1}{n}(2X^TX\boldsymbol{w}-2X^T\boldsymbol{y}) = 0 
-\end{align}
+\Leftrightarrow & \frac{\partial}{\partial \boldsymbol{w}} \frac{1}{n}\sum_{i} (\hat{y}_{i}-y_{i})^2 = 0 \cr 
+\Leftrightarrow & \frac{\partial}{\partial \boldsymbol{w}} \frac{1}{n}\sum_{i} (\boldsymbol{x}_i^T \cdot\boldsymbol{w}-y_{i})^2 = 0 \cr
+\Leftrightarrow & \frac{\partial}{\partial \boldsymbol{w}} \frac{1}{n}(X\boldsymbol{w}-\boldsymbol{y})^T(X\boldsymbol{w}-\boldsymbol{y}) = 0 \cr 
+\Rightarrow & \frac{1}{n}(2X^TX\boldsymbol{w}-2X^T\boldsymbol{y}) = 0 
+\end{align*}
 
 
 ### ロジスティック回帰モデル
