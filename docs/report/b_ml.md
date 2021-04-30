@@ -44,7 +44,6 @@ $$
 \Rightarrow &\frac{1}{n}(2X^TX\boldsymbol{w}-2X^T\boldsymbol{y}) = 0 \cr
 \Rightarrow &\boldsymbol{w} = (X^TX)^{-1} X^T\boldsymbol{y}
 \end{split} 
-
 $$
 
 ### ロジスティック回帰モデル
