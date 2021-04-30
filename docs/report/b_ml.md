@@ -41,8 +41,10 @@ $$
 \Leftrightarrow &\frac{\partial}{\partial \boldsymbol{w}} \frac{1}{n}\sum_{i} (\hat{y}_{i}-y_{i})^2 = 0 \cr 
 \Leftrightarrow &\frac{\partial}{\partial \boldsymbol{w}} \frac{1}{n}\sum_{i} (\boldsymbol{x}_i^T \cdot\boldsymbol{w}-y_{i})^2 = 0 \cr 
 \Leftrightarrow &\frac{\partial}{\partial \boldsymbol{w}} \frac{1}{n}(X\boldsymbol{w}-\boldsymbol{y})^T(X\boldsymbol{w}-\boldsymbol{y}) = 0 \cr 
-\Rightarrow &\frac{1}{n}(2X^TX\boldsymbol{w}-2X^T\boldsymbol{y}) = 0 
-\end{split}
+\Rightarrow &\frac{1}{n}(2X^TX\boldsymbol{w}-2X^T\boldsymbol{y}) = 0 \cr
+\Rightarrow &\boldsymbol{w} = (X^TX)^{-1} X^T\boldsymbol{y}
+\end{split} 
+
 $$
 
 ### ロジスティック回帰モデル
