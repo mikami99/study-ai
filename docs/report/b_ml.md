@@ -55,17 +55,19 @@ $$
 直線ではない回帰を行う。二次関数や三次関数。三角関数などなど
 
 $$
-y = w_0 + w_1 x + w_2 x^2 + \cdots + x_n x^n \cr
-y = w_0 + w_1 \sin(x) + w_2\cos(x)
+\begin{split} 
+y &= w_0 + w_1 x + w_2 x^2 + \cdots + x_n x^n \cr
+y &= w_0 + w_1 \sin(x) + w_2\cos(x)
+\end{split} 
 $$
 
 つまり、任意の$x$の関数$\phi(x)$を用いて以下のように書けるもの
 
 $$
-y = w_0 + w_1 \phi_1(x) + \cots + w_n \phi_n(x)
+y = w_0 + w_1 \phi_1(x) + \cdots + w_n \phi_n(x)
 $$
 
-これは$\boldsymbol{w}=(w_0,\cdots,w_n)^T$に関しては線形である。
+これは$\boldsymbol{w}=(w_0,\cdots,w_n)^T$に関しては線形である。(linear-in-parameter)
 
 ### ロジスティック回帰モデル
 ### 主成分分析
