@@ -82,10 +82,21 @@ $$
 ※基底関数は完全系を張る必要があるのか？？
 
 
-- 入力値 : $\boldsymbol{x}_{i}=(x_{i0},\cdots,x_{im})\in \mathbb{R}^m , i = (1,\cdots, n)$  
+- 入力値 : $\boldsymbol{x}\_{i}=(x\_{i0},\cdots,x\_{im})\in \mathbb{R}^m , i = (1,\cdots, n)$  
 - 非線形関数ベクトル : $\boldsymbol{\phi(\boldsymbol{x}_i)} =(\phi_0(\boldsymbol{x}_i),\cdots,\phi_k(\boldsymbol{x}_i))^T \in \mathbb{R}^k$
 - 非線形関数計画行列 : $\Phi =(\boldsymbol{\phi}(\boldsymbol{x}_1),\cdots,\boldsymbol{\phi}(\boldsymbol{x}_m)^T \in \mathbb{R}^{m\times k}$
 - 最尤法での予測 : $\hat{\boldsymbol{y}} = \Phi(\Phi^T \Phi)^{-1} \Phi^T \boldsymbol{y}$
+
+#### 未学習と過学習
+
+未学習とは、関数の自由度が低すぎて情報を表現しきれていない状態。より自由度の高い基底で表現することで解決できる。
+
+
+過学習は、自由度が高すぎて訓練データに対してのみ極端にフィットしてしまっている状態。以下のような対応を行う。
+
+- 学習データ数を増やす
+- 不要な規定を削除して自由度を落とす
+- **正規化**の利用
 
 
 ### ロジスティック回帰モデル
