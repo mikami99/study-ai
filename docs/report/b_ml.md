@@ -82,7 +82,7 @@ $$
 ※基底関数は完全系を張る必要があるのか？？
 
 
-- 入力値 : $\boldsymbol{x}_1=(x_{i0},\cdots,x_{im})\in \mathbb{R}^m , i = (1,\cdots, n)$  
+- 入力値 : $\boldsymbol{x}_{i}=(x_{i0},\cdots,x_{im})\in \mathbb{R}^m , i = (1,\cdots, n)$  
 - 非線形関数ベクトル : $\boldsymbol{\phi(\boldsymbol{x}_i)} =(\phi_0(\boldsymbol{x}_i),\cdots,\phi_k(\boldsymbol{x}_i))^T \in \mathbb{R}^k$
 - 非線形関数計画行列 : $\Phi =(\boldsymbol{\phi}(\boldsymbol{x}_1),\cdots,\boldsymbol{\phi}(\boldsymbol{x}_m)^T \in \mathbb{R}^{m\times k}$
 - 最尤法での予測 : $\hat{\boldsymbol{y}} = \Phi(\Phi^T \Phi)^{-1} \Phi^T \boldsymbol{y}$
