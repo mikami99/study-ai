@@ -74,10 +74,13 @@ $$
 |基底関数|関数型|
 |---|---|
 |多項式|$\phi_j(x)=x^j$|
-|ガウス基底|$\phi_j(x)=\exp\left{ \frac{(x-\mu_j)^2}{2h_j} \right}$|
+|ガウス基底|$\phi_j(x)=\exp\left\{ -\frac{(x-\mu_j)^2}{2h_j} \right\}$|
 |スプライン関数||
 
 ※基底関数は完全系を張る必要があるのか？？
+
+
+- 入力値$\boldsymbol{x}=(x_0,\cdots,x_m)\in \mathbb{R}^m$$
 
 
 
