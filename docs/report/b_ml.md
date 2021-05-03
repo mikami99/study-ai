@@ -148,6 +148,12 @@ $$
 \sigma(x)= \frac{1}{1+\exp(-x)}
 $$
 
+これによって確率として
+
+$$
+P(Y=1\|\boldsymbol{x}) = \sigma(\sum_{j=0}^m w_jx_j)
+$$
+
 ---
 ### 主成分分析
 ---
