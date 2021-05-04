@@ -151,7 +151,7 @@ $$
 これによって確率として
 
 $$
-P(Y=1\|\boldsymbol{x}) = \sigma(\sum_{j=0}^m w_jx_j)
+P(Y=1|\boldsymbol{x}) = \sigma\left(\sum_{j=0}^m w_jx_j\right)
 $$
 
 ---
