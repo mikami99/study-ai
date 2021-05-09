@@ -159,13 +159,13 @@ $$
 ただしシグモイド関数を含むために解析的に解くことができない。これを勾配降下法で解く。対数尤度関数は
 
 $$
-E(/boldsymbol{w})=-\sum_{i=1}^{n}\{y_i \log p_i+(1-y_{i})\log (1-p_i)\}
+E(\boldsymbol{w})=-\sum_{i=1}^{n}\{y_i \log p_i+(1-y_{i})\log (1-p_i)\}
 $$
 
 勾配降下法は
 
 $$
-\boldsymbol{w}(k+1) = w^k - \eta \frac{\parcial E(\boldsymbol{w})}{\percial \boldsymbol{w}}
+\boldsymbol{w}(k+1) = w^k - \eta \frac{\partial E(\boldsymbol{w})}{\partial \boldsymbol{w}}
 $$
 
 
