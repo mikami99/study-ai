@@ -154,6 +154,22 @@ $$
 P(Y=1|\boldsymbol{x}) = \sigma\left(\sum_{j=0}^m w_jx_j\right)
 $$
 
+これに対して尤度関数最大化（負の対数尤度関数の最小化）を行う。対数関数が単調増加であるために、対数をとっても最小となる点は不変であることに注意。
+
+ただしシグモイド関数を含むために解析的に解くことができない。これを勾配降下法で解く。対数尤度関数は
+
+$$
+E(/boldsymbol{w})=-\sum_{i=1}^{n}\{y_i \log p_i+(1-y_{i})\log (1-p_i)\}
+$$
+
+勾配降下法は
+
+$$
+\boldsymbol{w}(k+1) = w^k - \eta \frac{\parcial E(\boldsymbol{w})}{\percial \boldsymbol{w}}
+$$
+
+
+
 ---
 ### 主成分分析
 ---
