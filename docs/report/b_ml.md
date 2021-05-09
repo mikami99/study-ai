@@ -165,8 +165,13 @@ $$
 勾配降下法は
 
 $$
-\boldsymbol{w}(k+1) = w^k - \eta \frac{\partial E(\boldsymbol{w})}{\partial \boldsymbol{w}}
+\begin{split} 
+\boldsymbol{w}(k+1) &= w^k - \eta \frac{\partial E(\boldsymbol{w})}{\partial \boldsymbol{w}}
+&= w^k + \eta \sum_{i=1}^{n} (y_i - p_i)\boldsymbol{x}_i 
+\end{split} 
 $$
+
+
 
 
 
