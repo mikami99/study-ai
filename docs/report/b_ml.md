@@ -166,8 +166,8 @@ $$
 
 $$
 \begin{split} 
-\boldsymbol{w}(k+1) &= w^k - \eta \frac{\partial E(\boldsymbol{w})}{\partial \boldsymbol{w}}　\cr
-&= w^k + \eta \sum_{i=1}^{n} (y_i - p_i)\boldsymbol{x}_i 
+\boldsymbol{w}(k+1) &= \boldsymbol{w}^k - \eta \frac{\partial E(\boldsymbol{w})}{\partial \boldsymbol{w}}　\cr
+&= \boldsymbol{w}^k + \eta \sum_{i=1}^{n} (y_i - p_i)\boldsymbol{x}_i 
 \end{split} 
 $$
 
